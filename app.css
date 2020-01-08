@@ -1,0 +1,89 @@
+body {
+    /* background: #250b61; */
+    background-color: #1c084a;
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    color: #EA1C2C;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #fff8e8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainName {
+    color: #fff8e8;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: #fff8e8;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#mainNavbar.scrolled {
+    background-color: #1c084a;
+    transition: background 500ms;
+}
+
+/* @media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+} */
+
+
+/* WANT TO MAKE THE TOP IMAGE DISAPPEAR RATHER THAN THE TEXT ON MOBILE*/
+
+@media (max-width: 1200px) {
+    #topImg {
+        width: 0px;
+    }
+
+}
+
+@media (max-width: 590px) {
+    #mainNavbar {
+        background-color: rgba(28, 8, 74, 0.5);
+    }
+}
