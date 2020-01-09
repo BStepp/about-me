@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    /* background: #250b61; */
-    background-color: #1c084a;
+    background: url("imgs/upstateNY.jpg") no-repeat center;
+    background-size: auto 100%;
     font-family: "Nunito", sans-serif;
 }
 
@@ -24,6 +28,19 @@ h1 {
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.liClass {
+    list-style-type: none;
+    color: #fff8e8;
+}
+
+#introImg {
+    filter: sepia(80%) saturate(200%) brightness(70%) hue-rotate(-45deg);
+}
+
+#aboutImg {
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(180deg);
 }
 
 #mainName {
@@ -58,32 +75,12 @@ h1 {
 }
 
 #mainNavbar.scrolled {
-    background-color: #1c084a;
+    background-color: #beccc6;
     transition: background 500ms;
 }
 
-/* @media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
-    .blurb h2 {
-        font-size: 2rem;
-    }
-} */
-
-
-/* WANT TO MAKE THE TOP IMAGE DISAPPEAR RATHER THAN THE TEXT ON MOBILE*/
-
-@media (max-width: 1200px) {
-    #topImg {
-        width: 0px;
-    }
-
-}
-
-@media (max-width: 590px) {
+@media (max-width: 750px) {
     #mainNavbar {
-        background-color: rgba(28, 8, 74, 0.5);
+        background-color: #beccc6;
     }
 }
