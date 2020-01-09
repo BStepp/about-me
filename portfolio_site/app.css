@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url("imgs/upstateNY.jpg") no-repeat center;
+    background-size: auto 100%;
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    color: #EA1C2C;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #fff8e8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.liClass {
+    list-style-type: none;
+    color: #fff8e8;
+}
+
+#introImg {
+    filter: sepia(80%) saturate(200%) brightness(70%) hue-rotate(-45deg);
+}
+
+#aboutImg {
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(180deg);
+}
+
+#mainName {
+    color: #fff8e8;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: #fff8e8;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#mainNavbar.scrolled {
+    background-color: #beccc6;
+    transition: background 500ms;
+}
+
+@media (max-width: 750px) {
+    #mainNavbar {
+        background-color: #beccc6;
+    }
+}
