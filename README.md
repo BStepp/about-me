@@ -1,2 +1,3 @@
-# portfolio-site
-Ben's totally rad portfolio site
+# about-me
+
+This is a small about-me site.
