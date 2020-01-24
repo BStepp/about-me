@@ -21,11 +21,11 @@ img {
 }
 
 .red {
-    color: #EA1C2C;
+    color: #EA1C2C !important;
 }
 
 .offWhite {
-    color: #fff8e8;
+    color: #fff8e8 !important;
 }
 
 .otherNames, .otherSpans{
