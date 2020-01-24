@@ -65,6 +65,10 @@ img {
     border-radius: 15%;
 }
 
+#brand {
+    color: #EA1C2C !important;
+}
+
 #mainName {
     color: #fff8e8;
     -webkit-animation-name: mainNameColor;
