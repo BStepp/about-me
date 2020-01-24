@@ -28,6 +28,10 @@ img {
     color: #fff8e8 !important;
 }
 
+.nav-link {
+    color: #fff8e8 !important;
+}
+
 .otherNames, .otherSpans{
     -webkit-animation-name: otherNamesColor;
             animation-name: otherNamesColor;
